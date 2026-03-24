@@ -1,9 +1,11 @@
 # 🎬 Presentation Script: Basic Barangay Admin-Dashboard
+
 **Project:** A Web-Based Service Request Queuing and Notification System for Local Communities
 
 ---
 
 ## 🎤 Speaker 1: The Intro & Live Demo
+
 **Goal:** Ipakita na "smooth" at "working" ang system sa mata ng user.
 
 * **Greeting:** "Good day everyone! Kami ang Team [Team Name], at ngayon ay i-pe-present namin ang aming project: *A Basic Admin-Dashboard for our local barangay*."
@@ -15,6 +17,7 @@
 ---
 
 ## 🎤 Speaker 2: Database Architecture & Auto-Setup
+
 **Goal:** Ipaliwanag ang "puso" ng system at ang automation logic.
 
 * **Database Design:** "Punta naman tayo sa likod ng system—ang aming Database. **(Action: Buksan ang Designer tab sa phpMyAdmin)** Mapapansin niyo ang relational structure natin sa `bdls_db`."
@@ -24,17 +27,19 @@
 ---
 
 ## 🎤 Speaker 3: Project Structure & Security Hardening
+
 **Goal:** Ipakita ang "Skeleton" ng system at kung paano ito pinu-protektahan.
 
-* **Folders:** "Dito naman sa VSCode, makikita niyo ang aming **Project Structure**. **(Action: I-expand ang file tree)** Ginamit namin ang *Separation of Concerns*. Ang sensitive logic, models, at configs ay nakatago sa `app` folder, malayo sa public access."
+* **Folders:** "Dito naman sa VSCode, makikita niyo ang aming **Project Structure**. **(Ac ***eparation of Concerns*. Ang sensitive logic, models, at configs ay nakatago sa `app` folder, malayo sa public access."
 * **Security Layers (.htaccess):** "**(Action: Buksan ang .htaccess sa root)** Nag-implement kami ng security hardening:
-    1.  **Directory Protection:** Binlock namin ang folder viewing para hindi makita ang files.
-    2.  **Clean URLs:** Tinanggal namin ang `.php` extensions sa URL para mas maging malinis at secured ang routing.
-    3.  **Silent Guardians:** Mayroon din kaming blank `index.php` files sa backend folders as fallback security."
+  1. **Directory Protection:** Binlock namin ang folder viewing para hindi makita ang files.
+  2. **Clean URLs:** Tinanggal namin ang `.php` extensions sa URL para mas maging malinis at secured ang routing.
+  3. **Silent Guardians:** Mayroon din kaming blank `index.php` files sa backend folders as fallback security."
 
 ---
 
 ## 🎤 Speaker 4: Backend Logic & Conclusion
+
 **Goal:** I-explain ang "Engine" at ang susunod na plano sa project.
 
 * **The Engine (Fetch API):** "Para sa logic, gumamit kami ng **Async/Await** at **Fetch API**. Ang JavaScript na mismo ang kumakausap sa aming PHP endpoints sa background para sa real-time updates."
