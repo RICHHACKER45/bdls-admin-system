@@ -71,3 +71,13 @@
 **10. The Vision (Final Statement)**
 * Ipaliwanag na ang Case Problem #1 na ito ang foundation para sa kabuuan ng Capstone niyo.
 * **Next Phase:** Ang pag-integrate ng **SMS Gateway API** (Semaphore) para sa automated notifications pagka-click ng "Release" button.
+
+Dahil apat kayong mag-o-outline, siguraduhin niyo na:
+
+Speaker 1: Ang pinaka-confident mag-demo ng browser.
+
+Speaker 2: Ang pinaka-maalam sa database structure.
+
+Speaker 3: Ang magpapaliwanag ng security (since ito ang "must-protect" part).
+
+Speaker 4: Ang mag-ko-close at magpapakita ng coding logic.
