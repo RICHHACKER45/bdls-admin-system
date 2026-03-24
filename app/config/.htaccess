@@ -1,0 +1,5 @@
+# /app/config/.htaccess
+
+# I-block ang lahat ng web browser access sa folder na ito.
+# Ang PHP lang mismo ang pwedeng mag-require_once sa database.php.
+Require all denied

@@ -1,0 +1,14 @@
+# /public/.htaccess
+
+# 1. Patayin ang Directory Listing dito sa public folder
+Options -Indexes
+
+# 2. Buhayin ang URL Rewrite Engine
+RewriteEngine On
+
+# 3. Kung ang hinahanap ay hindi isang folder...
+RewriteCond %{REQUEST_FILENAME} !-d
+# ...at kung nage-exist ang file na may .php sa dulo...
+RewriteCond %{REQUEST_FILENAME}.php -f
+# ...basahin ang file kahit walang .php sa URL!
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

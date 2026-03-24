@@ -1,0 +1,4 @@
+# /database/.htaccess
+
+# Protektahan ang init.sql laban sa mga gustong mag-download
+Require all denied

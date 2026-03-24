@@ -1,0 +1,5 @@
+# /.htaccess
+
+# Patayin ang pagpapakita ng folder contents (Directory Listing)
+Options -Indexes
+
